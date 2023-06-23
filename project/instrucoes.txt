@@ -1,0 +1,26 @@
+﻿CONSTRUÇÃO
+
+Este projeto foi construído com a linguagem de programação Python para efetuar o controle das operações e funcões principais do sistema. Além de Python, foi utilizado SQL para a manipulação do banco de dados.
+
+
+COMO ABRIR
+
+Para abrir este projeto, é necessário ter o programa Python instalado em seu computador. A versão app.py (possui console) é aberta com python, enquanto app2.pyw (não possui console) deve ser aberto com pythonw. Ambos os arquivos app são o mesmo programa, possuindo apenas a variação da exebição da tela de console. IMPORTANTE: O arquivo vendas.db deve estar junto ao arquivo app.py ou app2.pyw para funcionar corretamente.
+
+
+BIBLIOTECAS
+
+Este projeto utiliza as seguintes bibliotecas:
+
+	- PySimpleGUI (para a criação de interfaces gráficas / telas) 
+	- SQLite3 (manipulação do banco de dados)
+	- re (para a criação de expressões regulares utilizadas na validação de campos)
+
+Sem estas, o projeto não funcionará.
+
+
+DESCRIÇÃO
+
+O projeto consiste em um programa de gerenciamento de vendas, onde o usuário pode registrar, alterar, excluir e atualizar suas vendas através de uma interface gráfica.
+Além disso, o usuário poderá analisar o total de vendas e efetuar uma limpeza no banco de dados.
+

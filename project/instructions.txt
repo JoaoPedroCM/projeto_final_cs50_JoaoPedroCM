@@ -1,0 +1,27 @@
+CONSTRUCTION
+
+This project was built with the Python programming language to control the main operations and functions of the system. In addition to Python, SQL was used for database manipulation.
+
+
+HOW TO OPEN
+
+To open this project, you need to have the Python program installed on your computer. Version app.py (has console) is opened with python, while app2.pyw (has no console) must be opened with pythonw. Both app files are the same program, having only the variation of the console screen exebition. IMPORTANT: vendas.db and app.py/app2.pyw file must be in the same directory to work properly.
+
+
+LIBRARIES
+
+This project uses the following libraries:
+
+- PySimpleGUI (for creating graphical interfaces/screens) 
+	- SQLite3 (database manipulation)
+	- re (for creating regular expressions used in field validation)
+
+Without these, the project will not work.
+
+
+DESCRIPTION
+
+The project consists of a sales management program, where the user can register, change, delete and update their sales.
+In addition, the user will be able to analyze the total sales and perform a cleanup on the database.
+
+

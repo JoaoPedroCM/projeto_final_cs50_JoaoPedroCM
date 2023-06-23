@@ -1,0 +1,8 @@
+CREATE TABLE vendas(
+    id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+    produto VARCHAR(50) NOT NULL,
+    cliente VARCHAR(50) NOT NULL,
+    valor DECIMAL(5,5) NOT NULL,
+    data DATE NOT NULL,
+    pago CHAR(3)
+);
